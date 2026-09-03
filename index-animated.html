@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>NestIn Hyderabad – Animated Home (Preview)</title>
+<meta name="description" content="Animated background preview of the NestIn Hyderabad home page. Same look, feel and content with a subtle animated hero background."/>
+<meta name="keywords" content="apartments in Hyderabad, new launch Hyderabad 2026, gated community Hyderabad, 3 BHK apartments Hyderabad, flats in Hyderabad, best apartments Hyderabad 2026, new projects Hyderabad, premium apartments near ORR, flats near IT hub Hyderabad, 2 BHK Hyderabad, apartments near metro Hyderabad"/>
+<meta property="og:title" content="Apartments in Hyderabad 2026 – New Launch Gated Communities | NestIn"/>
+<meta property="og:description" content="New launch apartments in Hyderabad. Gated communities in Bachupally, Kukatpally, Miyapur, Kollur &amp; Kokapet. From ₹1 Cr. Zero brokerage."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.nestinhyderabad.com/"/>
+<meta property="og:image" content="https://www.nestinhyderabad.com/assets/Candure-eternia-project.jpeg"/>
+<meta property="og:image:alt" content="Premium apartments in Hyderabad by NestIn"/>
+<meta property="og:site_name" content="NestIn Hyderabad"/>
+<meta property="og:locale" content="en_IN"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Apartments in Hyderabad 2026 – New Launch Gated Communities | NestIn"/>
+<meta name="twitter:description" content="New launch apartments in Hyderabad. Gated communities in Bachupally, Kukatpally, Miyapur, Kollur &amp; Kokapet. RERA verified. Zero brokerage."/>
+<meta name="twitter:image" content="https://www.nestinhyderabad.com/assets/Candure-eternia-project.jpeg"/>
+<meta name="geo.region" content="IN-TG"/>
+<meta name="geo.placename" content="Hyderabad"/>
+<meta name="robots" content="noindex, follow"/>
+<link rel="canonical" href="https://www.nestinhyderabad.com/"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23E8B84B'/><path d='M16 6L6 15h3v11h5v-6h4v6h5V15h3L16 6z' fill='%230a0a0a'/></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Nest In Hyderabad",
+  "description": "Expert real estate consultants helping buyers find premium gated community apartments in Hyderabad.",
+  "url": "https://www.nestinhyderabad.com",
+  "telephone": "+919391954743",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.instagram.com/nestinhyderabad/",
+    "https://www.facebook.com/people/Nestin-hyderabad/61588675737535/",
+    "https://x.com/nestinhyderabad"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.nestinhyderabad.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Projects", "item": "https://www.nestinhyderabad.com/#projects"},
+    {"@type": "ListItem", "position": 3, "name": "Blog", "item": "https://www.nestinhyderabad.com/blog/"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "NestIn Hyderabad",
+  "url": "https://www.nestinhyderabad.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.nestinhyderabad.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- ═══════ ANIMATED HERO BACKGROUND (preview only) ═══════ -->
+<style>
+  /* Animation layers live only inside .hero; the rest of the page is untouched. */
+  .hero-anim {
+    position: absolute;
+    inset: 0;
+    z-index: 0;              /* above .hero-bg / .hero-overlay, below .hero-content (z-index:1) */
+    pointer-events: none;
+    overflow: hidden;
+  }
+  /* Drifting gold gradient glow */
+  .hero-anim .anim-glow {
+    position: absolute;
+    inset: -20%;
+    background:
+      radial-gradient(circle at 30% 30%, rgba(232,184,75,0.18) 0%, transparent 45%),
+      radial-gradient(circle at 75% 65%, rgba(232,184,75,0.12) 0%, transparent 40%);
+    animation: heroGlowDrift 18s ease-in-out infinite alternate;
+    will-change: transform;
+  }
+  @keyframes heroGlowDrift {
+    0%   { transform: translate3d(-4%, -3%, 0) scale(1); }
+    50%  { transform: translate3d(3%, 2%, 0) scale(1.08); }
+    100% { transform: translate3d(4%, 4%, 0) scale(1.02); }
+  }
+  /* Particle canvas (floating dust / light specks) */
+  .hero-anim .anim-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  /* Slow-moving thin light streaks */
+  .hero-anim .anim-streak {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(232,184,75,0.25), transparent);
+    opacity: 0;
+    animation: heroStreak 9s linear infinite;
+  }
+  .hero-anim .anim-streak:nth-child(2) { left: 18%; animation-delay: 0s;   }
+  .hero-anim .anim-streak:nth-child(3) { left: 42%; animation-delay: 3s;   }
+  .hero-anim .anim-streak:nth-child(4) { left: 68%; animation-delay: 5.5s; }
+  .hero-anim .anim-streak:nth-child(5) { left: 88%; animation-delay: 7s;   }
+  @keyframes heroStreak {
+    0%   { opacity: 0; transform: translateY(-30%); }
+    15%  { opacity: 1; }
+    85%  { opacity: 1; }
+    100% { opacity: 0; transform: translateY(30%); }
+  }
+  /* Respect reduced-motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    .hero-anim .anim-glow,
+    .hero-anim .anim-streak { animation: none; }
+    .hero-anim .anim-canvas { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════ NAVIGATION ═══════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="/" class="nav-logo">
+      <div class="logo-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3L4 14h3v13h6v-7h6v7h6V14h3L16 3z" fill="#0a0a0a"/></svg></div>
+      <div class="logo-text">
+        <span class="logo-name">NestIn</span>
+        <span class="logo-sub">Hyderabad</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/" class="active">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">Projects ▾</a>
+        <ul class="dropdown">
+          <li><a href="/new-launch-bachupally/">New Launch - Bachupally</a></li>
+          <li><a href="/new-launch-tellapur/">Pre Launch - Tellapur</a></li>
+          <li><a href="/otp-flats-kukatpally/">OTP Offer - Kukatpally Metro</a></li>
+          <li><a href="/pre-launch-gocl-kukatpally/">Pre Launch - GOCL Kukatpally</a></li>
+          <li><a href="/premium-lakeside-kondapur/">Lakeside Living - Kondapur</a></li>
+          <li><a href="/hi-rise-apartments-kondapur/">Hi-Rise Living - Kondapur</a></li>
+          <li><a href="/new-launch-kukatpally/">Pre Launch - Kukatpally</a></li>
+          <li><a href="/new-launch-miyapur/">New Launch - Miyapur</a></li>
+          <li><a href="/new-launch-kollur/">New Launch - Kollur</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">Locations ▾</a>
+        <ul class="dropdown">
+          <li><a href="/apartments-in-bachupally">Bachupally</a></li>
+          <li><a href="/apartments-in-kokapet">Kokapet</a></li>
+          <li><a href="/apartments-in-narsingi">Narsingi</a></li>
+          <li><a href="/apartments-in-manikonda">Manikonda</a></li>
+          <li><a href="/apartments-in-nallagandla">Nallagandla</a></li>
+          <li><a href="/flats-in-miyapur">Miyapur</a></li>
+          <li><a href="/flats-in-lingampally">Lingampally</a></li>
+          <li><a href="/flats-in-gachibowli">Gachibowli</a></li>
+          <li><a href="/flats-near-metro-hyderabad">Near Metro</a></li>
+          <li><a href="/apartments-near-orr-hyderabad">Near ORR</a></li>
+          <li><a href="/gated-community-apartments-hyderabad">Gated Communities</a></li>
+          <li><a href="/best-apartments-under-1-crore-hyderabad">Under 1 Crore</a></li>
+        </ul>
+      </li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/projects.html">All Projects</a></li>
+      <li><a href="/compare.html">Compare</a></li>
+      <li><a href="/emi-calculator.html">EMI Calculator</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://wa.me/919391954743?text=Hi%2C%20I%20want%20to%20know%20more%20about%20apartments%20in%20Hyderabad" class="btn btn-whatsapp nav-cta" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Now
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══════ HERO ═══════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <!-- Animated background layers (preview) -->
+  <div class="hero-anim" aria-hidden="true">
+    <div class="anim-glow"></div>
+    <canvas class="anim-canvas" id="heroParticles"></canvas>
+    <span class="anim-streak"></span>
+    <span class="anim-streak"></span>
+    <span class="anim-streak"></span>
+    <span class="anim-streak"></span>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🏆 Hyderabad's Trusted Real Estate Partner</div>
+    <h1 class="hero-title">Find the Best Gated Community<br/><em>Apartments in Hyderabad</em></h1>
+    <p class="hero-sub">Expert Guidance, Site Visits &amp; Exclusive Offers for Premium Projects.<br/>Zero Brokerage. 100% RERA Verified.</p>
+    <div class="hero-stats">
+      <div class="hero-stat"><span class="hs-num">50+</span><span class="hs-label">Premium Projects</span></div>
+      <div class="hs-divider"></div>
+      <div class="hero-stat"><span class="hs-num">500+</span><span class="hs-label">Happy Families</span></div>
+      <div class="hs-divider"></div>
+      <div class="hero-stat"><span class="hs-num">₹0</span><span class="hs-label">Brokerage for Buyers</span></div>
+    </div>
+    <div class="hero-ctas">
+      <a href="https://wa.me/919391954743?text=Hi%2C%20I%20want%20to%20know%20more%20about%20apartments%20in%20Hyderabad" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Now
+      </a>
+      <a href="#site-visit" class="btn btn-outline">📅 Schedule Site Visit</a>
+      <a href="#projects" class="btn btn-gold">Download Brochure</a>
+      <a href="#contact" class="btn btn-outline">💰 Get Price Details</a>
+    </div>
+    <!-- Project Search Bar -->
+    <div style="margin-top:36px;max-width:700px">
+      <form id="heroSearch" style="display:flex;flex-wrap:wrap;gap:8px;background:rgba(255,255,255,0.95);border-radius:12px;padding:10px;box-shadow:0 8px 32px rgba(0,0,0,0.3)">
+        <select id="hsLoc" style="flex:1 1 140px;min-width:0;padding:12px 10px;border:1px solid #eee;border-radius:8px;font-size:0.85rem;font-family:inherit;color:#333;background:#fff">
+          <option value="">📍 Location</option>
+          <option value="Bachupally">Bachupally</option>
+          <option value="Kukatpally">Kukatpally</option>
+          <option value="Miyapur">Miyapur</option>
+          <option value="Kondapur">Kondapur</option>
+          <option value="Gachibowli">Gachibowli</option>
+          <option value="Kokapet">Kokapet</option>
+          <option value="Kollur">Kollur</option>
+          <option value="Financial District">Financial District</option>
+        </select>
+        <select id="hsBhk" style="flex:1 1 100px;min-width:0;padding:12px 10px;border:1px solid #eee;border-radius:8px;font-size:0.85rem;font-family:inherit;color:#333;background:#fff">
+          <option value="">🏠 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="2.5 BHK">2.5 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+          <option value="3.5 BHK">3.5 BHK</option>
+          <option value="4 BHK">4 BHK</option>
+        </select>
+        <select id="hsBudget" style="flex:1 1 120px;min-width:0;padding:12px 10px;border:1px solid #eee;border-radius:8px;font-size:0.85rem;font-family:inherit;color:#333;background:#fff">
+          <option value="">💰 Budget</option>
+          <option value="under75">Under ₹75L</option>
+          <option value="75-1cr">₹75L – 1Cr</option>
+          <option value="1-1.5cr">₹1 – 1.5Cr</option>
+          <option value="1.5-5cr">₹1.5 – 5Cr</option>
+          <option value="above5cr">Above ₹5Cr</option>
+        </select>
+        <button type="submit" style="flex:1 1 100%;padding:12px 20px;background:#E8B84B;color:#000;border:none;border-radius:8px;font-weight:700;font-size:0.9rem;cursor:pointer">🔍 Search Projects</button>
+      </form>
+    </div>
+  </div>
+  <div class="hero-scroll"><span>Scroll</span><div class="scroll-line"></div></div>
+</section>
+
+<!-- ═══════ TRUST BAR ═══════ -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item"><span class="ti-icon">✅</span><span>100% RERA Verified</span></div>
+      <div class="trust-item"><span class="ti-icon">🏠</span><span>Zero Brokerage for Buyers</span></div>
+      <div class="trust-item"><span class="ti-icon">🚗</span><span>Free Site Visits</span></div>
+      <div class="trust-item"><span class="ti-icon">🏦</span><span>Home Loan Assistance</span></div>
+      <div class="trust-item"><span class="ti-icon">📋</span><span>Legal Documentation Help</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FEATURED PROJECTS ═══════ -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Premium Projects</span>
+      <h2 class="section-title">Handpicked Projects for Discerning Buyers</h2>
+      <p class="section-sub">RERA verified, carefully vetted gated communities across Hyderabad's fastest-growing locations.</p>
+    </div>
+    <div class="projects-slider-wrapper">
+      <button class="slider-arrow prev" id="projectsPrev" aria-label="Previous">&#10094;</button>
+      <button class="slider-arrow next" id="projectsNext" aria-label="Next">&#10095;</button>
+    <div class="projects-grid" id="projectsSlider">
+
+      <!--  Eternia -->
+      <div class="project-card featured" data-href="/candeur-eternia-bachupally" style="cursor:pointer">
+        <div class="project-badge">Featured</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Eternia</div>
+            <div class="pi-location">📍 Bachupally</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Eternia</h3>
+          <p class="project-location">📍 Bachupally, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">2.5 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">7 Acres</span>
+            <span class="ptag rera">RERA ✓</span>
+          </div>
+          <div class="project-price">Starting <strong>₹1.2 Cr*</strong></div>
+          <p class="project-desc">Bachupally's tallest landmark. 68,000+ sq.ft of amenities across two grand clubhouses. 5 mins to ORR, 20 mins to Hitech City.</p>
+          <div class="project-highlights">
+            <span>🏊 2 Pools</span>
+            <span>🎭 Theatre</span>
+            <span>🍽️ Restaurant</span>
+            <span>🛏️ 12 Guest Rooms</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-eternia-bachupally" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Eternia%20Bachupally.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur Kukatpally - IDL Lake -->
+      <div class="project-card featured" data-href="/candeur-kukatpally/" style="cursor:pointer">
+        <div class="project-badge">New Pre-Launch</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">IDL Lake - Kukatpally</div>
+            <div class="pi-location">📍 IDL Lake, Kukatpally</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Kukatpally - IDL Lake</h3>
+          <p class="project-location">📍 Near IDL Lake, Kukatpally, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2.5 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">20 Acres</span>
+            <span class="ptag">Pre-Launch</span>
+          </div>
+          <div class="project-price">Starting <strong>₹89L* (2.5 BHK)</strong></div>
+          <p class="project-desc">20-acre premium gated community with 13 towers, G+25 floors. 1.35 lakh sq.ft grand clubhouse. Spacious 2.5 & 3 BHK apartments (1,552–2,205 sq.ft). Phase 1 bookings open.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏋️ Gym</span>
+            <span>🎬 Theatre</span>
+            <span>🌳 Lake Views</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-kukatpally/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Kukatpally%20IDL%20Lake%20pre-launch.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Pre-Launch - Tellapur -->
+      <div class="project-card featured" data-href="/new-launch-tellapur/" style="cursor:pointer">
+        <div class="project-badge">New Pre-Launch</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">New Pre-Launch - Tellapur</div>
+            <div class="pi-location">📍 Tellapur, Hyderabad</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">New Pre-Launch - Tellapur</h3>
+          <p class="project-location">📍 Tellapur, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">21.1 Acres</span>
+            <span class="ptag">Pre-Launch</span>
+          </div>
+          <div class="project-price">OTP Option Available</div>
+          <p class="project-desc">Landmark 21.1-acre gated community with 9 towers (G+49), a 6.2-acre central park and ~1,50,000 sq.ft of lifestyle amenities. Spacious 2 & 3 BHK (1,295–2,555 sq.ft). Early-bird pre-launch pricing.</p>
+          <div class="project-highlights">
+            <span>🏞️ 6.2 Acre Park</span>
+            <span>🏗️ G+49 Towers</span>
+            <span>🏊 Pool</span>
+            <span>🏛️ Grand Clubhouse</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/new-launch-tellapur/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20new%20pre-launch%20in%20Tellapur.%20Please%20share%20project%20name%2C%20price%20and%20OTP%20option." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- OTP Flats Kukatpally - Near Metro -->
+      <div class="project-card featured" data-href="/otp-flats-kukatpally/" style="cursor:pointer">
+        <div class="project-badge">OTP · ₹5,299/Sq.Ft</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Hi-Rise 3 BHK - Kukatpally Metro</div>
+            <div class="pi-location">📍 Near Kukatpally Metro</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Hi-Rise 3 BHK - Kukatpally Metro</h3>
+          <p class="project-location">📍 Near Kukatpally Metro Station, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">8 Acres</span>
+            <span class="ptag">G+32</span>
+            <span class="ptag">OTP Option</span>
+          </div>
+          <div class="project-price">All-Inclusive <strong>₹5,299/Sq.Ft</strong></div>
+          <p class="project-desc">Hi-rise premium gated community near Kukatpally Metro. 8 acres, 4 towers (G+32), premium 3 BHK (2,000–3,200 sq.ft) with 500-acre forest view & metro views. 50,000 sq.ft clubhouse. OTP option available.</p>
+          <div class="project-highlights">
+            <span>🌳 Forest View</span>
+            <span>🚇 3 Min to Metro</span>
+            <span>🏊 Pool</span>
+            <span>🏛️ Clubhouse</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/otp-flats-kukatpally/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20OTP%20option%203%20BHK%20flats%20near%20Kukatpally%20Metro.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pre-Launch GOCL - Kukatpally -->
+      <div class="project-card featured" data-href="/pre-launch-gocl-kukatpally/" style="cursor:pointer">
+        <div class="project-badge">🔥 Pre-Launch · ₹5,699/Sft</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Pre-Launch at GOCL - Kukatpally</div>
+            <div class="pi-location">📍 GOCL, Kukatpally</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Pre-Launch at GOCL - Kukatpally</h3>
+          <p class="project-location">📍 GOCL, Kukatpally, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">4 BHK</span>
+            <span class="ptag">25 Acres</span>
+            <span class="ptag">Pre-Launch</span>
+          </div>
+          <div class="project-price">Pre-Launch <strong>₹5,699/Sft</strong></div>
+          <p class="project-desc">The most awaited landmark pre-launch in Kukatpally. 25 acres at GOCL, 80% open space, 11 high-rise towers, 8-acre courtyard, 3 mega clubhouses & 1.5+ lakh sft amenities. 3, 3.5, 4 & 4.5 BHK (2,190–4,600 sft). High appreciation potential.</p>
+          <div class="project-highlights">
+            <span>🌿 80% Open Space</span>
+            <span>🏗️ 11 Towers</span>
+            <span>🏛️ 3 Clubhouses</span>
+            <span>📈 High Appreciation</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/pre-launch-gocl-kukatpally/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20new%20pre-launch%20at%20GOCL%2C%20Kukatpally.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jain's Central Park East -->
+      <div class="project-card" data-href="/jains-central-park-east-hyderabad" style="cursor:pointer">
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Jain's Central Park East</div>
+            <div class="pi-location">📍 Uppal,Narapally</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Jain's Central Park East</h3>
+          <p class="project-location">📍 Uppal,Narapally, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag rera">RERA ✓</span>
+          </div>
+          <div class="project-price">Competitive Pricing</div>
+          <p class="project-desc">Premium gated community by Jain Group. Excellent connectivity via NH-44, close to Outer Ring Road and upcoming Metro corridor.</p>
+          <div class="project-highlights">
+            <span>🌳 Landscape Gardens</span>
+            <span>🏋️ Gymnasium</span>
+            <span>🏊 Swimming Pool</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/jains-central-park-east-hyderabad" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Jains%20Central%20Park%20East.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Launch in Miyapur -->
+      <div class="project-card" data-href="/new-launch-miyapur/" style="cursor:pointer">
+        <div class="project-badge">🏠 Corner Homes</div>
+        <div class="project-img" style="background:url('assets/marvel_of_miyapur/project1.jpg') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">New Launch<br/>in Miyapur</div>
+            <div class="pi-location">📍 Miyapur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">New Launch in Miyapur</h3>
+          <p class="project-location">📍 Opposite D-Mart, Miyapur</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">~9 Acres</span>
+            <span class="ptag">Corner Homes</span>
+            <span class="ptag">GHMC ✓</span>
+          </div>
+          <div class="project-price">Starting <strong>₹5,199/sq.ft*</strong></div>
+          <p class="project-desc">Every home a corner home. OTP ₹5,199/sq.ft | 50%+50% plan ₹6,699/sq.ft. GHMC Approved. Opposite D-Mart. Near Metro & ORR.</p>
+          <div class="project-highlights">
+            <span>🏠 Corner</span>
+            <span>🚇 Metro</span>
+            <span>🏊 Pool</span>
+            <span>🌳 9 Acres</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/new-launch-miyapur/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Marvel%20of%20Miyapur%203.0." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Candeur Skyline -->
+      <div class="project-card" data-href="/candeur-skyline/" style="cursor:pointer">
+        <div class="project-badge">Ultra Luxury</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Skyline</div>
+            <div class="pi-location">📍 Financial District</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Skyline</h3>
+          <p class="project-location">📍 Financial District, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">4 BHK Sky Villas</span>
+            <span class="ptag">58-59 Floors</span>
+            <span class="ptag rera">RERA ✓</span>
+          </div>
+          <div class="project-price">Starting <strong>₹9 Cr*</strong></div>
+          <p class="project-desc">Ultra luxury 4 BHK Sky Villas. 1 apartment per floor. 4 towers, 58-59 floors. 60,000 sq.ft clubhouse. 13 ft ceilings. Possession Mar 2028.</p>
+          <div class="project-highlights">
+            <span>🏊 Infinity Pool</span>
+            <span>🍷 Lounge</span>
+            <span>🎬 Theatre</span>
+            <span>🌳 Sky Gardens</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-skyline/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Skyline%20Sky%20Villas.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur Lakescape -->
+      <div class="project-card featured" data-href="/premium-lakeside-kondapur/" style="cursor:pointer">
+        <div class="project-badge">🌊 Lake View</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Premium Lakeside - Kondapur</div>
+            <div class="pi-location">📍 Kondapur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Premium Lakeside - Kondapur</h3>
+          <p class="project-location">📍 Kondapur, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2.5 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">3.5 BHK</span>
+            <span class="ptag">Lake View</span>
+          </div>
+          <div class="project-price">Starting <strong>₹8,699/Sq.Ft</strong></div>
+          <p class="project-desc">Iconic high-rise lakeside gated community in Kondapur. 9.11 acres, 7 towers, 47 floors. Premium 2.5, 3 & 3.5 BHK (1,571–2,415 sq.ft) with Gopi Cheruvu lake views, 11 ft ceilings & 1 lakh sq.ft clubhouse. Home loan option available.</p>
+          <div class="project-highlights">
+            <span>🌊 Lake Views</span>
+            <span>🏗️ 47 Floors</span>
+            <span>🏛️ 1 Lakh Sq.Ft Club</span>
+            <span>⬆️ 11 Ft Ceiling</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/premium-lakeside-kondapur/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20premium%20lakeside%20project%20in%20Kondapur.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hi-Rise Apartments - Kondapur -->
+      <div class="project-card featured" data-href="/hi-rise-apartments-kondapur/" style="cursor:pointer">
+        <div class="project-badge">🏙️ Investment</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Hi-Rise Apartments - Kondapur</div>
+            <div class="pi-location">📍 Kondapur, Hyderabad</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Hi-Rise Apartments - Kondapur</h3>
+          <p class="project-location">📍 Kondapur, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">4 BHK</span>
+            <span class="ptag">10 Acres</span>
+          </div>
+          <div class="project-price">Price On Request</div>
+          <p class="project-desc">Premium luxury hi-rise investment in Kondapur. 10 acres, 8 blocks, G+49. Spacious 2, 3 & 4 BHK (1,475–3,375 sq.ft), East & West facing. Near University of Hyderabad & Chandanagar MMTS. Walkable to all social amenities.</p>
+          <div class="project-highlights">
+            <span>🏗️ G+49</span>
+            <span>🏊 Pool</span>
+            <span>🎬 Theatre</span>
+            <span>🌳 Theme Gardens</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/hi-rise-apartments-kondapur/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20hi-rise%20apartments%20in%20Kondapur.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur Crescent -->
+      <div class="project-card" data-href="/candeur-crescent/" style="cursor:pointer">
+        <div class="project-badge">Handover Started</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Crescent</div>
+            <div class="pi-location">📍 Near Gachibowli</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Crescent</h3>
+          <p class="project-location">📍 Serilingampally, Near Gachibowli</p>
+          <div class="project-tags">
+            <span class="ptag">2.5 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">~50 Floors</span>
+          </div>
+          <div class="project-price">Starting <strong>₹1 Cr*</strong></div>
+          <p class="project-desc">High-rise gated community near Gachibowli. ~50 floors. 2.5 & 3 BHK, 1,333–2,656 sq.ft. Handover started – ready to move units available.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏋️ Gym</span>
+            <span>🎾 Sports</span>
+            <span>🌳 Gardens</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-crescent/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Crescent%20Gachibowli.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur Twins -->
+      <div class="project-card" data-href="/candeur-twins/" style="cursor:pointer">
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Twins</div>
+            <div class="pi-location">📍 Miyapur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Twins</h3>
+          <p class="project-location">📍 Miyapur, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">Twin Towers</span>
+            <span class="ptag">47 Floors</span>
+          </div>
+          <div class="project-price">Starting <strong>₹1.2 Cr*</strong></div>
+          <p class="project-desc">Iconic twin towers in Miyapur. 47 floors, 3 BHK only (1,591–2,060 sq.ft). Possession Jun 2026.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏋️ Gym</span>
+            <span>🎬 Theatre</span>
+            <span>🎾 Sports</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-twins/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Twins%20Miyapur.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur C40 -->
+      <div class="project-card" data-href="/candeur-c40/" style="cursor:pointer">
+        <div class="project-badge">Ready to Move</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">C40</div>
+            <div class="pi-location">📍 Miyapur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">C40</h3>
+          <p class="project-location">📍 Miyapur, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">2.5 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">Completed</span>
+          </div>
+          <div class="project-price">Starting <strong>₹70L*</strong></div>
+          <p class="project-desc">Completed ready-to-move gated community. Compact 2, 2.5 & 3 BHK (1,149–1,610 sq.ft). No construction wait. Move in now.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏋️ Gym</span>
+            <span>🔒 Security</span>
+            <span>🌳 Gardens</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-c40/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20C40%20Miyapur.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Candeur Novo Gardenia -->
+	  <!--
+      <div class="project-card" data-href="/candeur-novo-gardenia/" style="cursor:pointer">
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Candeur Novo<br/>Gardenia</div>
+            <div class="pi-location">📍 Bengaluru</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Candeur Novo Gardenia</h3>
+          <p class="project-location">📍 Varthur / Gunjur, Bengaluru</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">Green Living</span>
+          </div>
+          <div class="project-price">Starting <strong>₹80L*</strong></div>
+          <p class="project-desc">Premium green gated community in East Bengaluru. Focus on greenery & open spaces. Near Whitefield & Sarjapur Road IT hubs.</p>
+          <div class="project-highlights">
+            <span>🌳 Gardens</span>
+            <span>🏊 Pool</span>
+            <span>🧘 Yoga</span>
+            <span>🚶 Trails</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/candeur-novo-gardenia/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Novo%20Gardenia%20Bengaluru.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+-->
+      <!-- Sattva Lago -->
+      <div class="project-card" data-href="/sattva-lago/" style="cursor:pointer">
+        <div class="project-badge">New Launch</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Sattva Lago</div>
+            <div class="pi-location">📍 Kokapet</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Sattva Lago</h3>
+          <p class="project-location">📍 Neopolis, Kokapet, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">3.5 BHK</span>
+            <span class="ptag">4 BHK</span>
+            <span class="ptag">10 Acres</span>
+            <span class="ptag rera">RERA ✓</span>
+          </div>
+          <div class="project-price">Starting <strong>₹4.5 Cr*</strong></div>
+          <p class="project-desc">Ultra-luxury by Sattva Group. Phase 2 of Lake Ridge. 5 towers, B+G+47 floors. 3,088–4,976 sq.ft. 528 units. Near Financial District.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏋️ Gym</span>
+            <span>💼 Co-working</span>
+            <span>🧘 Spa</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/sattva-lago/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Sattva%20Lago%20Kokapet.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Crisanto -->
+      <div class="project-card" data-href="/crisanto/" style="cursor:pointer">
+        <div class="project-badge">🏙️ Ultra Luxury</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">Crisanto</div>
+            <div class="pi-location">📍 Ameenpur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">Crisanto</h3>
+          <p class="project-location">📍 Ameenpur-Chandanagar, Hyderabad</p>
+          <div class="project-tags">
+            <span class="ptag">2 BHK</span>
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">4 BHK</span>
+            <span class="ptag">24.5 Acres</span>
+            <span class="ptag">HMDA ✓</span>
+          </div>
+          <div class="project-price">Price <strong>On Request</strong></div>
+          <p class="project-desc">Ultra luxury by Avanthika Constructions. 7 towers, 39 floors. 1,25,000 sq.ft sports arena. 2 min to BHEL Metro. HMDA approved.</p>
+          <div class="project-highlights">
+            <span>🏊 Pool</span>
+            <span>🏟️ Sports Arena</span>
+            <span>🚇 Metro 2 min</span>
+            <span>🧘 Yoga</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/crisanto/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Crisanto%20Ameenpur.%20Please%20share%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Launch in Kollur -->
+      <div class="project-card" data-href="/new-launch-kollur/" style="cursor:pointer">
+        <div class="project-badge">New Launch</div>
+        <div class="project-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <div class="project-img-content">
+            <div class="pi-title">New Launch<br/>in Kollur</div>
+            <div class="pi-location">📍 Kollur/Tellapur</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-name">New Launch in Kollur</h3>
+          <p class="project-location">📍 Kollur/Tellapur, Near ORR & Financial District</p>
+          <div class="project-tags">
+            <span class="ptag">3 BHK</span>
+            <span class="ptag">2,340 Sq.Ft</span>
+            <span class="ptag">High-Rise</span>
+            <span class="ptag">East Facing</span>
+          </div>
+          <div class="project-price">Starting <strong>₹6,999/sq.ft*</strong></div>
+          <p class="project-desc">3 BHK high-rise landmark (2,340 Sq.Ft). East facing, 270° view balcony. ₹6,999/sq.ft all-inclusive. Construction-linked & time-linked payment plans. Mortgage units available.</p>
+          <div class="project-highlights">
+            <span>💰 All-Inclusive</span>
+            <span>�️ High-Rise</span>
+            <span>🛣️ Near ORR</span>
+            <span>🌅 270° View</span>
+          </div>
+          <div class="project-ctas">
+            <a href="/new-launch-kollur/" class="btn btn-gold btn-sm">View Project →</a>
+            <a href="https://wa.me/919391954743?text=Hi%2C%20I%27m%20interested%20in%20the%20new%20launch%20in%20Kollur.%20Please%20share%20project%20details." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ WHY CHOOSE US ═══════ -->
+<section class="section section-dark" id="why">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Why NestIn Hyderabad</span>
+      <h2 class="section-title">Your Trusted Partner in Every Step</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🔍</div>
+        <h3>Expert Project Curation</h3>
+        <p>We evaluate every project for RERA compliance, builder track record, location quality, and value for money before recommending it.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🚗</div>
+        <h3>Free Site Visits</h3>
+        <p>We arrange and accompany you on site visits at no charge. See the actual progress, amenities, and neighbourhood firsthand.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">💰</div>
+        <h3>Zero Brokerage</h3>
+        <p>Buyers pay nothing. Our fees come entirely from developers. You get full service and expert guidance completely free.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🏦</div>
+        <h3>Home Loan Help</h3>
+        <p>We work with leading banks and NBFCs. We help you compare rates, prepare documentation, and get approval faster.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚖️</div>
+        <h3>Legal Assistance</h3>
+        <p>Our team assists with sale agreement review, registration, and ensuring all paperwork is in order before you sign.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📞</div>
+        <h3>Dedicated Support</h3>
+        <p>One point of contact from enquiry to possession. WhatsApp, call, or email — we respond fast, always.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ LOCATION PAGES ═══════ -->
+<section class="section" id="locations">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Browse by Location</span>
+      <h2 class="section-title">Find Apartments by Area</h2>
+      <p class="section-sub">Detailed guides for every major location in Hyderabad's real estate market.</p>
+    </div>
+    <div class="locations-grid">
+      <a href="/apartments-in-bachupally" class="location-card">
+        <div class="lc-icon">📍</div>
+        <h3>Bachupally</h3>
+        <p>Hyderabad's fastest growing suburb. ORR access, top schools, and hospitals. Best value for money.</p>
+        <span class="lc-link">Explore →</span>
+      </a>
+      <a href="/apartments-near-orr-hyderabad" class="location-card">
+        <div class="lc-icon">🛣️</div>
+        <h3>Near ORR</h3>
+        <p>Outer Ring Road connectivity gives access to Hitech City, Gachibowli, and the airport in minutes.</p>
+        <span class="lc-link">Explore →</span>
+      </a>
+      <a href="/gated-community-apartments-hyderabad" class="location-card">
+        <div class="lc-icon">🏘️</div>
+        <h3>Gated Communities</h3>
+        <p>Complete guide to gated community living in Hyderabad — amenities, security, and lifestyle benefits.</p>
+        <span class="lc-link">Explore →</span>
+      </a>
+      <a href="/3-bhk-apartments-bachupally" class="location-card">
+        <div class="lc-icon">🏠</div>
+        <h3>3 BHK Bachupally</h3>
+        <p>Spacious 3 BHK options in Bachupally. Compare layouts, prices, and projects side by side.</p>
+        <span class="lc-link">Explore →</span>
+      </a>
+      <a href="/best-apartments-under-1-crore-hyderabad" class="location-card">
+        <div class="lc-icon">💰</div>
+        <h3>Under ₹1 Crore</h3>
+        <p>Quality 2 BHK apartments under ₹1 crore in Hyderabad. RERA verified, gated communities only.</p>
+        <span class="lc-link">Explore →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ SITE VISIT FORM ═══════ -->
+<section class="section section-gold" id="site-visit">
+  <div class="container">
+    <div class="form-section">
+      <div class="form-content">
+        <span class="section-tag-dark">Free Site Visit</span>
+        <h2 class="form-title">Schedule Your<br/>Site Visit Today</h2>
+        <p class="form-sub">We'll arrange a personalised site visit at a time that works for you. No pressure, no obligations.</p>
+        <div class="form-perks">
+          <div class="fp-item">✅ Free pickup &amp; drop available</div>
+          <div class="fp-item">✅ Expert guidance at the site</div>
+          <div class="fp-item">✅ Compare multiple projects in one visit</div>
+          <div class="fp-item">✅ Get exclusive pricing on the day</div>
+        </div>
+      </div>
+      <form class="lead-form" id="siteVisitForm">
+        <div class="form-group">
+          <label for="sv-name">Your Name *</label>
+          <input type="text" id="sv-name" name="name" placeholder="Enter your full name" required/>
+        </div>
+        <div class="form-group">
+          <label for="sv-phone">Mobile Number *</label>
+          <input type="tel" id="sv-phone" name="phone" placeholder="+91 XXXXX XXXXX" required/>
+        </div>
+        <div class="form-group">
+          <label for="sv-project">Project Interested In</label>
+          <select id="sv-project" name="project">
+            <option value="">Select a project...</option>
+            <option value="candeur-eternia">Eternia – Bachupally</option>
+            <option value="candeur-kukatpally">Kukatpally IDL Lake – Kukatpally (Pre-Launch)</option>
+            <option value="candeur-skyline">Skyline – Financial District</option>
+            <option value="candeur-lakescape">Lakescape – Kondapur</option>
+            <option value="candeur-crescent">Crescent – Near Gachibowli</option>
+            <option value="candeur-twins">Twins – Miyapur</option>
+            <option value="candeur-c40">C40 – Miyapur (Ready to Move)</option>
+            <!-- <option value="candeur-novo-gardenia">Candeur Novo Gardenia – Bengaluru</option> -->
+            <option value="sattva-lago">Sattva Lago – Kokapet (New Launch) – Bengaluru</option>
+            <option value="jains-central-park">Jain's Central Park East – Uppal,Narapally</option>
+            <option value="not-sure">Not Sure – Show Me Options</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="sv-budget">Budget Range</label>
+          <select id="sv-budget" name="budget">
+            <option value="">Select budget...</option>
+            <option value="under-80L">Under ₹80 Lakhs</option>
+            <option value="80L-1Cr">₹80 Lakhs – ₹1 Crore</option>
+            <option value="1Cr-1.5Cr">₹1 Crore – ₹1.5 Crore</option>
+            <option value="1.5Cr-2Cr">₹1.5 Crore – ₹2 Crore</option>
+            <option value="above-2Cr">Above ₹2 Crore</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-dark btn-block">
+          📅 Schedule My Free Visit
+        </button>
+        <p class="form-note">Or WhatsApp directly: <a href="https://wa.me/919391954743" target="_blank" rel="noopener">+91 93919 54743</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ LATEST BLOG ═══════ -->
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Latest Insights</span>
+      <h2 class="section-title">Real Estate Guides &amp; Market News</h2>
+      <p class="section-sub">Stay informed with our weekly blog — honest advice, market trends, and area guides.</p>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="blog-img" style="background:url('assets/default-img/high-raise.png') center/cover no-repeat">
+          <span class="blog-category">Market Trends</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">June 10, 2026</div>
+          <h3><a href="/blog/best-gated-communities-hyderabad-2026">Best Gated Communities in Hyderabad 2026</a></h3>
+          <p>A comprehensive review of the top gated communities across Bachupally, Kondapur, Gachibowli and Miyapur — with prices, amenities and possession dates.</p>
+          <a href="/blog/best-gated-communities-hyderabad-2026" class="blog-read-more">Read More →</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img" style="background:url('assets/default-img/image 1.png') center/cover no-repeat">
+          <span class="blog-category">Area Guide</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">June 7, 2026</div>
+          <h3><a href="/blog/bachupally-vs-miyapur-which-area-is-better">Bachupally vs Miyapur: Which Area is Better?</a></h3>
+          <p>Comparing two of Hyderabad's most popular residential areas on price, connectivity, schools, hospitals and future appreciation potential.</p>
+          <a href="/blog/bachupally-vs-miyapur-which-area-is-better" class="blog-read-more">Read More →</a>
+        </div>
+      </article>
+      <article class="blog-card">
+        <div class="blog-img" style="background:url('assets/default-img/image 2.png') center/cover no-repeat">
+          <span class="blog-category">Project Review</span>
+        </div>
+        <div class="blog-body">
+          <div class="blog-date">June 3, 2026</div>
+          <h3><a href="/blog/why-candeur-eternia-getting-attention-it-professionals">Why Eternia is Getting Attention from IT Professionals</a></h3>
+          <p>ORR access, Hitech City commute, premium amenities and a flexible payment plan — here's why tech workers are choosing Eternia.</p>
+          <a href="/blog/why-candeur-eternia-getting-attention-it-professionals" class="blog-read-more">Read More →</a>
+        </div>
+      </article>
+    </div>
+    <div class="section-cta">
+      <a href="/blog/" class="btn btn-outline">View All Articles →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ TESTIMONIALS ═══════ -->
+<section class="section section-dark" id="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Happy Buyers</span>
+      <h2 class="section-title">What Our Clients Say</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-quote">"We visited 6 projects before Eternia. The moment we saw the clubhouse and the floor plan, we knew this was home. Zero brokerage made it even better."</p>
+        <div class="tc-author">
+          <div class="tc-avatar">P</div>
+          <div class="tc-info">
+            <strong>Priya &amp; Suresh M.</strong>
+            <span>Booked 2.5 BHK · Eternia</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-quote">"The team at NestIn was incredibly helpful. They arranged the site visit, helped with home loan paperwork, and were available on WhatsApp throughout. Highly recommend."</p>
+        <div class="tc-author">
+          <div class="tc-avatar">R</div>
+          <div class="tc-info">
+            <strong>Ramesh K.</strong>
+            <span>Booked 3 BHK · Bachupally</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-quote">"As an NRI, I was worried about buying property remotely. NestIn gave us a virtual tour, handled all documentation, and kept us updated at every step. Seamless experience."</p>
+        <div class="tc-author">
+          <div class="tc-avatar">A</div>
+          <div class="tc-info">
+            <strong>Anand P. (Dubai)</strong>
+            <span>Booked 3 BHK · Hyderabad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CONTACT ═══════ -->
+<section class="section section-gold" id="contact">
+  <div class="container">
+    <div class="contact-section">
+      <div class="contact-info">
+        <span class="section-tag-dark">Get In Touch</span>
+        <h2 class="contact-title">Let's Find Your<br/>Dream Home</h2>
+        <p>Whether you're a first-time buyer, investor, or NRI — we're here to help you every step of the way.</p>
+        <div class="contact-methods">
+          <a href="https://wa.me/919391954743" class="contact-method" target="_blank" rel="noopener">
+            <div class="cm-icon whatsapp-bg">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="cm-text">
+              <strong>WhatsApp</strong>
+              <span>+91 93919 54743</span>
+            </div>
+          </a>
+          <a href="tel:+919391954743" class="contact-method">
+            <div class="cm-icon call-bg">📞</div>
+            <div class="cm-text">
+              <strong>Call Us</strong>
+              <span>+91 93919 54743</span>
+            </div>
+          </a>
+          <div class="contact-method no-link">
+            <div class="cm-icon">📍</div>
+            <div class="cm-text">
+              <strong>Location</strong>
+              <span>Hyderabad, Telangana</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="lead-form" id="contactForm">
+        <h3 class="form-heading">Get Latest Price &amp; Floor Plans</h3>
+        <div class="form-group">
+          <label for="c-name">Your Name *</label>
+          <input type="text" id="c-name" name="name" placeholder="Enter your full name" required/>
+        </div>
+        <div class="form-group">
+          <label for="c-phone">Mobile Number *</label>
+          <input type="tel" id="c-phone" name="phone" placeholder="+91 XXXXX XXXXX" required/>
+        </div>
+        <div class="form-group">
+          <label for="c-project">Project Interested In</label>
+          <select id="c-project" name="project">
+            <option value="">Select a project...</option>
+            <option value="candeur-eternia">Eternia – Bachupally</option>
+            <option value="candeur-kukatpally">Kukatpally – IDL Lake</option>
+            <option value="candeur-skyline">Skyline – Financial District</option>
+            <option value="candeur-lakescape">Lakescape – Kondapur</option>
+            <option value="candeur-crescent">Crescent – Near Gachibowli</option>
+            <option value="candeur-twins">Twins – Miyapur</option>
+            <option value="candeur-c40">C40 – Miyapur (Ready to Move)</option>
+            <option value="sattva-lago">Sattva Lago – Kokapet (New Launch) – Bengaluru</option>
+            <option value="jains-central-park">Jain's Central Park East – Uppal</option>
+            <option value="not-sure">Not Sure – Show Me Options</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-dark btn-block">
+          💰 Get Price &amp; Floor Plans
+        </button>
+        <p class="form-note">Your details are safe. We never spam.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ DISCLAIMER ═══════ -->
+<section class="disclaimer-section" style="background:#f9f6f0;padding:48px 0;border-top:1px solid #ede9e0">
+  <div class="container">
+    <h4 style="font-family:'Poppins',sans-serif;font-size:0.75rem;font-weight:700;color:#1a1a1a;margin-bottom:14px">Disclaimer</h4>
+    <div style="font-size:0.72rem;color:#888;line-height:1.7">
+      <p style="margin-bottom:12px">The content is for information purposes only and does not constitute an offer to avail of any service. Prices mentioned are subject to change without notice and properties mentioned are subject to availability. Images for representation purposes only.</p>
+      <p>This is the official website of authorized marketing partner. We may share data with RERA registered brokers/companies for further processing. We may also send updates to the mobile number/email id registered with us. All Rights Reserved.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-icon"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3L4 14h3v13h6v-7h6v7h6V14h3L16 3z" fill="#0a0a0a"/></svg></div>
+          <div class="logo-text">
+            <span class="logo-name">NestIn</span>
+            <span class="logo-sub">Hyderabad</span>
+          </div>
+        </div>
+        <p class="footer-tagline">Hyderabad's trusted real estate partner. RERA verified projects. Zero brokerage for buyers.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/nestinhyderabad/" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+          <a href="https://www.facebook.com/people/Nestin-hyderabad/61588675737535/" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+          <a href="https://x.com/nestinhyderabad" target="_blank" rel="noopener" aria-label="X (Twitter)">𝕏</a>
+          <a href="https://wa.me/919391954743" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="/candeur-eternia-bachupally">Eternia</a></li>
+          <li><a href="/candeur-kukatpally/">IDL Lake - Kukatpally</a></li>
+          <li><a href="/pre-launch-gocl-kukatpally/">Pre Launch - GOCL Kukatpally</a></li>
+          <li><a href="/candeur-skyline/">Skyline</a></li>
+          <li><a href="/premium-lakeside-kondapur/">Lakeside Living - Kondapur</a></li>
+          <li><a href="/hi-rise-apartments-kondapur/">Hi-Rise Living - Kondapur</a></li>
+          <li><a href="/candeur-crescent/">Crescent</a></li>
+          <li><a href="/candeur-twins/">Twins</a></li>
+          <li><a href="/candeur-c40/">C40</a></li>
+          <li><a href="/jains-central-park-east-hyderabad">Jain's Central Park East</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="/apartments-in-bachupally">Bachupally</a></li>
+          <li><a href="/apartments-near-orr-hyderabad">Near ORR</a></li>
+          <li><a href="/gated-community-apartments-hyderabad">Gated Communities</a></li>
+          <li><a href="/3-bhk-apartments-bachupally">3 BHK Bachupally</a></li>
+          <li><a href="/best-apartments-under-1-crore-hyderabad">Under ₹1 Crore</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="/blog/candeur-kukatpally-pre-launch-2026">IDL Lake - Kukatpally Pre-Launch</a></li>
+          <li><a href="/blog/best-gated-communities-hyderabad-2026">Best Gated Communities 2026</a></li>
+          <li><a href="/blog/jains-central-park-east-review-2026">Jain's CPE Review</a></li>
+          <li><a href="/blog/bachupally-vs-miyapur-which-area-is-better">Bachupally vs Miyapur</a></li>
+          <li><a href="/blog/why-candeur-eternia-getting-attention-it-professionals">Eternia Review</a></li>
+          <li><a href="/blog/">All Articles →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Nest In Hyderabad. All rights reserved. | Channel Partner | RERA Registered</p>
+      <p class="footer-disclaimer">*Prices are indicative and subject to change. Please contact us for the latest pricing.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════ FLOATING WHATSAPP ═══════ -->
+<a href="https://wa.me/919391954743?text=Hi%2C%20I%20want%20to%20know%20more%20about%20apartments%20in%20Hyderabad" class="float-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="float-wa-tooltip">Chat on WhatsApp</span>
+</a>
+
+<!-- ═══════ EXIT POPUP ═══════ -->
+<div class="exit-popup" id="exitPopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+  <div class="popup-overlay" id="popupOverlay"></div>
+  <div class="popup-box">
+    <button class="popup-close" id="popupClose" aria-label="Close popup">✕</button>
+    <div class="popup-icon">🏠</div>
+    <h3 id="popupTitle">Wait! Get Latest Price Sheet &amp; Floor Plans</h3>
+    <p>Leave your details and we'll send you the complete price sheet, floor plans, and payment plan details — instantly on WhatsApp.</p>
+    <form id="popupForm">
+      <input type="text" id="p-name" name="name" placeholder="Your Name" required/>
+      <input type="tel" id="p-phone" name="phone" placeholder="+91 Mobile Number" required/>
+      <select id="p-project" name="project">
+        <option value="">Project Interested In...</option>
+        <option value="candeur-eternia">Eternia – Bachupally</option>
+        <option value="candeur-kukatpally">Kukatpally – IDL Lake</option>
+        <option value="candeur-skyline">Skyline – Financial District</option>
+        <option value="candeur-lakescape">Lakescape – Kondapur</option>
+        <option value="candeur-crescent">Crescent – Near Gachibowli</option>
+        <option value="candeur-twins">Twins – Miyapur</option>
+        <option value="candeur-c40">C40 – Miyapur (Ready to Move)</option>
+            <option value="sattva-lago">Sattva Lago – Kokapet (New Launch)</option>
+        <option value="jains-central-park">Jain's Central Park East – Uppal</option>
+        <option value="not-sure">Show Me All Options</option>
+      </select>
+      <button type="submit" class="btn btn-whatsapp btn-block">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Send Me Details on WhatsApp
+      </button>
+    </form>
+    <p class="popup-note">No spam. Only relevant property info.</p>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/ai-chat.js"></script>
+
+<!-- ═══════ HERO PARTICLE ANIMATION (preview only) ═══════ -->
+<script>
+(function () {
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var canvas = document.getElementById('heroParticles');
+  if (!canvas || reduce) return;
+
+  var ctx = canvas.getContext('2d');
+  var hero = canvas.closest('.hero');
+  var particles = [];
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var running = true;
+
+  function size() {
+    var w = hero.clientWidth;
+    var h = hero.clientHeight;
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    buildParticles(w, h);
+  }
+
+  function buildParticles(w, h) {
+    // Density scales with area, capped for performance.
+    var count = Math.min(70, Math.round((w * h) / 22000));
+    particles = [];
+    for (var i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        r: Math.random() * 1.8 + 0.4,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: -(Math.random() * 0.35 + 0.1),
+        a: Math.random() * 0.5 + 0.2
+      });
+    }
+  }
+
+  function frame() {
+    if (!running) return;
+    var w = canvas.width / dpr, h = canvas.height / dpr;
+    ctx.clearRect(0, 0, w, h);
+    for (var i = 0; i < particles.length; i++) {
+      var p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.y < -5) { p.y = h + 5; p.x = Math.random() * w; }
+      if (p.x < -5) p.x = w + 5;
+      if (p.x > w + 5) p.x = -5;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(232,184,75,' + p.a + ')';
+      ctx.fill();
+    }
+    requestAnimationFrame(frame);
+  }
+
+  // Pause when hero is offscreen to save battery/CPU.
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          if (!running) { running = true; requestAnimationFrame(frame); }
+        } else {
+          running = false;
+        }
+      });
+    }, { threshold: 0 }).observe(hero);
+  }
+
+  var resizeT;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeT);
+    resizeT = setTimeout(size, 200);
+  }, { passive: true });
+
+  size();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
