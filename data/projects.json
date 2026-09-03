@@ -1,7 +1,7 @@
 {
     "lastUpdated":  "2026-09-03",
     "version":  "1.0",
-    "totalProjects":  39,
+    "totalProjects":  42,
     "projects":  [
                      {
                          "id":  "candeur-eternia",
@@ -338,6 +338,327 @@
                                      }
                      },
                      {
+                         "id":  "otp-flats-kukatpally",
+                         "slug":  "otp-flats-kukatpally/",
+                         "projectName":  "Hi-Rise 3 BHK - Kukatpally Metro",
+                         "builder":  "Contact for Details",
+                         "status":  "Pre Launch",
+                         "approval":  "RERA Approved",
+                         "reraNumber":  "",
+                         "featured":  true,
+                         "location":  {
+                                          "area":  "Kukatpally",
+                                          "city":  "Hyderabad",
+                                          "state":  "Telangana",
+                                          "pincode":  "500072",
+                                          "latitude":  17.4948,
+                                          "longitude":  78.4138
+                                      },
+                         "price":  {
+                                       "startingPrice":  0,
+                                       "priceText":  "All-Inclusive u{20B9}5,299/Sq.Ft (OTP)",
+                                       "pricePerSqft":  5299
+                                   },
+                         "bhk":  [
+                                     "3 BHK"
+                                 ],
+                         "sizes":  [
+                                       {
+                                           "bhk":  "3 BHK",
+                                           "from":  2000,
+                                           "to":  3200
+                                       }
+                                   ],
+                         "projectDetails":  {
+                                                "landArea":  "8 Acres",
+                                                "towers":  4,
+                                                "floors":  "G+32",
+                                                "totalUnits":  0,
+                                                "clubhouse":  "50,000 Sq.Ft",
+                                                "possession":  "TBA"
+                                            },
+                         "propertyType":  "Apartment",
+                         "amenities":  [
+                                           "Grand Luxury Clubhouse",
+                                           "Resort-Style Swimming Pool",
+                                           "Fitness Center",
+                                           "Mini Theatre",
+                                           "Indoor Games Zone",
+                                           "Banquet Hall \u0026 Party Lawn",
+                                           "Co-working Lounge",
+                                           "Kids Play Zone",
+                                           "Jogging \u0026 Cycling Tracks",
+                                           "Yoga \u0026 Meditation Deck",
+                                           "Sports Courts",
+                                           "EV Charging \u0026 24x7 CCTV"
+                                       ],
+                         "connectivity":  [
+                                              {
+                                                  "place":  "Kukatpally Metro Station",
+                                                  "distance":  "~1 km (3 min walk)"
+                                              },
+                                              {
+                                                  "place":  "Hitech City IT Hub",
+                                                  "distance":  "7 km"
+                                              },
+                                              {
+                                                  "place":  "Mumbai Highway",
+                                                  "distance":  "3 km"
+                                              }
+                                          ],
+                         "highlights":  [
+                                            "8-Acre Hi-Rise Gated Community",
+                                            "4 Towers | G+32 Floors",
+                                            "500-Acre Forest View",
+                                            "Metro-Facing Residences",
+                                            "All-Inclusive u{20B9}5,299/Sq.Ft OTP"
+                                        ],
+                         "seo":  {
+                                     "title":  "OTP Flats in Kukatpally Near Metro - Hi-Rise 3 BHK",
+                                     "keywords":  [
+                                                      "OTP flats Kukatpally",
+                                                      "flats near Kukatpally Metro",
+                                                      "3 BHK Kukatpally",
+                                                      "hi-rise apartments Kukatpally",
+                                                      "forest view apartments Kukatpally",
+                                                      "Kukatpally GOCL flats"
+                                                  ]
+                                 },
+                         "media":  {
+                                       "thumbnail":  "/assets/default-img/high-raise.png",
+                                       "banner":  "/assets/default-img/high-raise.png"
+                                   },
+                         "contact":  {
+                                         "phone":  "+91 93919 54743",
+                                         "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20OTP%20option%203%20BHK%20flats%20near%20Kukatpally%20Metro.%20Please%20share%20details."
+                                     }
+                     },
+                     {
+                         "id":  "pre-launch-gocl-kukatpally",
+                         "slug":  "pre-launch-gocl-kukatpally/",
+                         "projectName":  "Pre-Launch at GOCL - Kukatpally",
+                         "builder":  "Contact for Details",
+                         "status":  "Pre Launch",
+                         "approval":  "RERA Approved",
+                         "reraNumber":  "",
+                         "featured":  true,
+                         "location":  {
+                                          "area":  "Kukatpally",
+                                          "city":  "Hyderabad",
+                                          "state":  "Telangana",
+                                          "pincode":  "500072",
+                                          "latitude":  17.4924,
+                                          "longitude":  78.3998
+                                      },
+                         "price":  {
+                                       "startingPrice":  0,
+                                       "priceText":  "Pre-Launch u{20B9}5,699/Sft",
+                                       "pricePerSqft":  5699
+                                   },
+                         "bhk":  [
+                                     "3 BHK",
+                                     "3.5 BHK",
+                                     "4 BHK",
+                                     "4.5 BHK"
+                                 ],
+                         "sizes":  [
+                                       {
+                                           "bhk":  "3 BHK",
+                                           "from":  2190,
+                                           "to":  2190
+                                       },
+                                       {
+                                           "bhk":  "3.5 BHK",
+                                           "from":  2580,
+                                           "to":  2645
+                                       },
+                                       {
+                                           "bhk":  "4 BHK",
+                                           "from":  2880,
+                                           "to":  4600
+                                       }
+                                   ],
+                         "projectDetails":  {
+                                                "landArea":  "25 Acres",
+                                                "towers":  11,
+                                                "floors":  "High-Rise",
+                                                "totalUnits":  0,
+                                                "clubhouse":  "3 Mega Clubhouses (1.5+ Lakh Sft)",
+                                                "possession":  "TBA"
+                                            },
+                         "propertyType":  "Apartment",
+                         "amenities":  [
+                                           "80% Open Space",
+                                           "8-Acre Central Park Courtyard",
+                                           "3 Mega Clubhouses",
+                                           "1.5+ Lakh Sft Amenities Zone",
+                                           "Swimming Pools",
+                                           "Gymnasium",
+                                           "Indoor Games",
+                                           "Sports Courts",
+                                           "Yoga \u0026 Wellness Zones",
+                                           "Kids Play Areas",
+                                           "Jogging \u0026 Walking Tracks",
+                                           "Landscaped Gardens"
+                                       ],
+                         "connectivity":  [
+                                              {
+                                                  "place":  "Kukatpally Metro",
+                                                  "distance":  "Nearby"
+                                              },
+                                              {
+                                                  "place":  "Hitech City",
+                                                  "distance":  "Short drive"
+                                              },
+                                              {
+                                                  "place":  "ORR",
+                                                  "distance":  "Nearby"
+                                              },
+                                              {
+                                                  "place":  "Gachibowli / Financial District",
+                                                  "distance":  "Accessible"
+                                              }
+                                          ],
+                         "highlights":  [
+                                            "25 Acres at GOCL, Kukatpally",
+                                            "80% Open Space",
+                                            "11 Premium High-Rise Towers",
+                                            "8-Acre Central Park Courtyard",
+                                            "Pre-Launch u{20B9}5,699/Sft"
+                                        ],
+                         "seo":  {
+                                     "title":  "SAS Infra Kukatpally IDL - GOCL Pre-Launch",
+                                     "keywords":  [
+                                                      "SAS Infra Kukatpally IDL",
+                                                      "SAS Infra GOCL Kukatpally",
+                                                      "GOCL Kukatpally pre-launch",
+                                                      "pre-launch Kukatpally 2026",
+                                                      "4 BHK Kukatpally",
+                                                      "25 acres Kukatpally"
+                                                  ]
+                                 },
+                         "media":  {
+                                       "thumbnail":  "/assets/default-img/high-raise.png",
+                                       "banner":  "/assets/default-img/high-raise.png"
+                                   },
+                         "contact":  {
+                                         "phone":  "+91 93919 54743",
+                                         "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20new%20pre-launch%20at%20GOCL%2C%20Kukatpally.%20Please%20share%20details."
+                                     }
+                     },
+                     {
+                         "id":  "hi-rise-apartments-kondapur",
+                         "slug":  "hi-rise-apartments-kondapur/",
+                         "projectName":  "Hi-Rise Apartments - Kondapur",
+                         "builder":  "Contact for Details",
+                         "status":  "Under Construction",
+                         "approval":  "RERA Approved",
+                         "reraNumber":  "",
+                         "featured":  true,
+                         "location":  {
+                                          "area":  "Kondapur",
+                                          "city":  "Hyderabad",
+                                          "state":  "Telangana",
+                                          "pincode":  "500084",
+                                          "latitude":  17.4550,
+                                          "longitude":  78.3450
+                                      },
+                         "price":  {
+                                       "startingPrice":  0,
+                                       "priceText":  "Price On Request",
+                                       "pricePerSqft":  0
+                                   },
+                         "bhk":  [
+                                     "2 BHK",
+                                     "3 BHK",
+                                     "4 BHK"
+                                 ],
+                         "sizes":  [
+                                       {
+                                           "bhk":  "2 BHK",
+                                           "from":  1475,
+                                           "to":  1690
+                                       },
+                                       {
+                                           "bhk":  "3 BHK",
+                                           "from":  2190,
+                                           "to":  2835
+                                       },
+                                       {
+                                           "bhk":  "4 BHK",
+                                           "from":  3100,
+                                           "to":  3375
+                                       }
+                                   ],
+                         "projectDetails":  {
+                                                "landArea":  "10 Acres",
+                                                "towers":  8,
+                                                "floors":  "G+49",
+                                                "totalUnits":  0,
+                                                "clubhouse":  "Premium Clubhouse",
+                                                "possession":  "TBA"
+                                            },
+                         "propertyType":  "Apartment",
+                         "amenities":  [
+                                           "Entrance Lobby",
+                                           "Gymnasium \u0026 Outdoor Gym",
+                                           "Swimming Pool",
+                                           "Mini Theatre",
+                                           "Table Tennis",
+                                           "Volleyball Court",
+                                           "Basketball Court",
+                                           "Badminton \u0026 Squash Courts",
+                                           "Cricket Practice Pitch",
+                                           "Jogging Track \u0026 Yoga Space",
+                                           "Senior Citizen Area \u0026 Reading Corners",
+                                           "Aroma Gardens, Theme Gardens \u0026 Birds Park"
+                                       ],
+                         "connectivity":  [
+                                              {
+                                                  "place":  "University of Hyderabad",
+                                                  "distance":  "Very near"
+                                              },
+                                              {
+                                                  "place":  "Chandanagar MMTS Station",
+                                                  "distance":  "Nearby"
+                                              },
+                                              {
+                                                  "place":  "HITEC City",
+                                                  "distance":  "Short drive"
+                                              },
+                                              {
+                                                  "place":  "Gachibowli",
+                                                  "distance":  "Short drive"
+                                              }
+                                          ],
+                         "highlights":  [
+                                            "10-Acre Hi-Rise Gated Community",
+                                            "8 Blocks | G+49 Floors",
+                                            "2, 3 \u0026 4 BHK (1,475-3,375 Sq.Ft)",
+                                            "East \u0026 West Facing",
+                                            "Near University of Hyderabad"
+                                        ],
+                         "seo":  {
+                                     "title":  "Vrindavan Hi-Rise Apartments Kondapur",
+                                     "keywords":  [
+                                                      "Vrindavan Hi-Rise Apartments",
+                                                      "Vrindavan Kondapur",
+                                                      "hi-rise apartments Kondapur",
+                                                      "4 BHK Kondapur",
+                                                      "apartments near University of Hyderabad",
+                                                      "luxury apartments Kondapur"
+                                                  ]
+                                 },
+                         "media":  {
+                                       "thumbnail":  "/assets/default-img/high-raise.png",
+                                       "banner":  "/assets/default-img/high-raise.png"
+                                   },
+                         "contact":  {
+                                         "phone":  "+91 93919 54743",
+                                         "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20hi-rise%20apartments%20in%20Kondapur.%20Please%20share%20details."
+                                     }
+                     },
+                     {
                          "id":  "candeur-skyline",
                          "slug":  "candeur-skyline/",
                          "projectName":  "Candeur Skyline",
@@ -432,13 +753,13 @@
                      },
                      {
                          "id":  "candeur-lakescape",
-                         "slug":  "candeur-lakescape/",
-                         "projectName":  "Candeur Lakescape",
-                         "builder":  "Candeur Constructions",
+                         "slug":  "premium-lakeside-kondapur/",
+                         "projectName":  "Premium Lakeside - Kondapur",
+                         "builder":  "Contact for Details",
                          "status":  "Under Construction",
                          "approval":  "RERA Approved",
                          "reraNumber":  "",
-                         "featured":  false,
+                         "featured":  true,
                          "location":  {
                                           "area":  "Kondapur",
                                           "city":  "Hyderabad",
@@ -448,31 +769,30 @@
                                           "longitude":  78.3700
                                       },
                          "price":  {
-                                       "startingPrice":  9000000,
-                                       "priceText":  "₹90L onwards",
-                                       "pricePerSqft":  7000
+                                       "startingPrice":  0,
+                                       "priceText":  "u{20B9}8,699/Sq.Ft",
+                                       "pricePerSqft":  8699
                                    },
                          "bhk":  [
-                                     "2 BHK",
                                      "2.5 BHK",
                                      "3 BHK",
                                      "3.5 BHK"
                                  ],
                          "sizes":  [
                                        {
-                                           "bhk":  "2 BHK",
-                                           "from":  1296,
-                                           "to":  1400
+                                           "bhk":  "2.5 BHK",
+                                           "from":  1571,
+                                           "to":  1700
                                        },
                                        {
                                            "bhk":  "3 BHK",
-                                           "from":  1600,
-                                           "to":  2000
+                                           "from":  1800,
+                                           "to":  2200
                                        },
                                        {
                                            "bhk":  "3.5 BHK",
-                                           "from":  2000,
-                                           "to":  2416
+                                           "from":  2200,
+                                           "to":  2415
                                        }
                                    ],
                          "projectDetails":  {
@@ -522,8 +842,12 @@
                                      "title":  "Candeur Lakescape Kondapur Hyderabad",
                                      "keywords":  [
                                                       "Candeur Lakescape",
+                                                      "Candeur Lakescape Kondapur",
                                                       "lake view apartments Kondapur",
-                                                      "3 BHK Kondapur"
+                                                      "Gopi Cheruvu apartments",
+                                                      "3 BHK Kondapur",
+                                                      "3.5 BHK Kondapur",
+                                                      "premium apartments Kondapur"
                                                   ]
                                  },
                          "media":  {
