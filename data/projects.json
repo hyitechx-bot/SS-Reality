@@ -1,7 +1,7 @@
 {
-    "lastUpdated":  "2026-07-07",
+    "lastUpdated":  "2026-09-03",
     "version":  "1.0",
-    "totalProjects":  38,
+    "totalProjects":  39,
     "projects":  [
                      {
                          "id":  "candeur-eternia",
@@ -229,6 +229,112 @@
                          "contact":  {
                                          "phone":  "+91 93919 54743",
                                          "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Kukatpally%20IDL%20Lake."
+                                     }
+                     },
+                     {
+                         "id":  "new-launch-tellapur",
+                         "slug":  "new-launch-tellapur/",
+                         "projectName":  "New Pre-Launch - Tellapur",
+                         "builder":  "Contact for Details",
+                         "status":  "Pre Launch",
+                         "approval":  "RERA Approved",
+                         "reraNumber":  "",
+                         "featured":  true,
+                         "location":  {
+                                          "area":  "Tellapur",
+                                          "city":  "Hyderabad",
+                                          "state":  "Telangana",
+                                          "pincode":  "502032",
+                                          "latitude":  17.4830,
+                                          "longitude":  78.2900
+                                      },
+                         "price":  {
+                                       "startingPrice":  0,
+                                       "priceText":  "OTP Option Available",
+                                       "pricePerSqft":  0
+                                   },
+                         "bhk":  [
+                                     "2 BHK",
+                                     "3 BHK"
+                                 ],
+                         "sizes":  [
+                                       {
+                                           "bhk":  "2 BHK",
+                                           "from":  1295,
+                                           "to":  1665
+                                       },
+                                       {
+                                           "bhk":  "3 BHK",
+                                           "from":  1665,
+                                           "to":  2555
+                                       }
+                                   ],
+                         "projectDetails":  {
+                                                "landArea":  "21.1 Acres",
+                                                "towers":  9,
+                                                "floors":  "G+49",
+                                                "totalUnits":  0,
+                                                "clubhouse":  "1,50,000 Sq.Ft Amenities",
+                                                "possession":  "TBA"
+                                            },
+                         "propertyType":  "Apartment",
+                         "amenities":  [
+                                           "6.2-Acre Central Park",
+                                           "Swimming Pool",
+                                           "Gymnasium",
+                                           "Tennis \u0026 Pickleball Courts",
+                                           "Box Cricket",
+                                           "Skating Rink",
+                                           "Cycling \u0026 Walking Tracks",
+                                           "Grand Clubhouse",
+                                           "Spa \u0026 Salon",
+                                           "Preview Theatre",
+                                           "Creche \u0026 Kids Zones",
+                                           "Senior Citizen Spaces"
+                                       ],
+                         "connectivity":  [
+                                              {
+                                                  "place":  "Outer Ring Road (ORR)",
+                                                  "distance":  "~8 km"
+                                              },
+                                              {
+                                                  "place":  "Financial District",
+                                                  "distance":  "Nearby"
+                                              },
+                                              {
+                                                  "place":  "Gachibowli",
+                                                  "distance":  "Nearby"
+                                              },
+                                              {
+                                                  "place":  "HITEC City",
+                                                  "distance":  "Via ORR"
+                                              }
+                                          ],
+                         "highlights":  [
+                                            "21.1-Acre Gated Community",
+                                            "9 Towers | G+49 Floors",
+                                            "6.2-Acre Central Park",
+                                            "~1,50,000 Sq.Ft Amenities",
+                                            "OTP Option Available"
+                                        ],
+                         "seo":  {
+                                     "title":  "Rajapushpa Sierra Tellapur Pre-Launch",
+                                     "keywords":  [
+                                                      "Rajapushpa Sierra",
+                                                      "Rajapushpa Sierra Tellapur",
+                                                      "pre-launch Tellapur",
+                                                      "new launch Tellapur",
+                                                      "gated community Tellapur",
+                                                      "Rajapushpa Properties Tellapur"
+                                                  ]
+                                 },
+                         "media":  {
+                                       "thumbnail":  "/assets/default-img/high-raise.png",
+                                       "banner":  "/assets/default-img/high-raise.png"
+                                   },
+                         "contact":  {
+                                         "phone":  "+91 93919 54743",
+                                         "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20the%20new%20pre-launch%20in%20Tellapur.%20Please%20share%20project%20name%2C%20price%20and%20OTP%20option."
                                      }
                      },
                      {
