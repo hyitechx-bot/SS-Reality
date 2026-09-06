@@ -1,7 +1,7 @@
 {
     "lastUpdated":  "2026-09-03",
     "version":  "1.0",
-    "totalProjects":  42,
+    "totalProjects":  41,
     "projects":  [
                      {
                          "id":  "candeur-eternia",
@@ -1151,104 +1151,6 @@
                          "contact":  {
                                          "phone":  "+91 93919 54743",
                                          "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20C40%20Miyapur."
-                                     }
-                     },
-                     {
-                         "id":  "candeur-novo-gardenia",
-                         "slug":  "candeur-novo-gardenia/",
-                         "projectName":  "Candeur Novo Gardenia",
-                         "builder":  "Candeur Constructions",
-                         "status":  "Under Construction",
-                         "approval":  "RERA Approved",
-                         "reraNumber":  "",
-                         "featured":  false,
-                         "location":  {
-                                          "area":  "Varthur",
-                                          "city":  "Bengaluru",
-                                          "state":  "Karnataka",
-                                          "pincode":  "560066",
-                                          "latitude":  12.9400,
-                                          "longitude":  77.7400
-                                      },
-                         "price":  {
-                                       "startingPrice":  8000000,
-                                       "priceText":  "₹80L onwards",
-                                       "pricePerSqft":  0
-                                   },
-                         "bhk":  [
-                                     "2 BHK",
-                                     "3 BHK"
-                                 ],
-                         "sizes":  [
-                                       {
-                                           "bhk":  "2 BHK",
-                                           "from":  1100,
-                                           "to":  1300
-                                       },
-                                       {
-                                           "bhk":  "3 BHK",
-                                           "from":  1400,
-                                           "to":  1700
-                                       }
-                                   ],
-                         "projectDetails":  {
-                                                "landArea":  "",
-                                                "towers":  0,
-                                                "floors":  "",
-                                                "totalUnits":  0,
-                                                "clubhouse":  "",
-                                                "possession":  "Ongoing"
-                                            },
-                         "propertyType":  "Apartment",
-                         "amenities":  [
-                                           "Swimming Pool",
-                                           "Gymnasium",
-                                           "Botanical Gardens",
-                                           "Sports Courts",
-                                           "Outdoor Yoga",
-                                           "Nature Play Zone",
-                                           "Jogging Trail",
-                                           "Community Centre"
-                                       ],
-                         "connectivity":  [
-                                              {
-                                                  "place":  "Whitefield IT Hub",
-                                                  "distance":  "10 mins"
-                                              },
-                                              {
-                                                  "place":  "Sarjapur Road",
-                                                  "distance":  "12 mins"
-                                              },
-                                              {
-                                                  "place":  "ORR",
-                                                  "distance":  "8 mins"
-                                              },
-                                              {
-                                                  "place":  "Airport",
-                                                  "distance":  "50 mins"
-                                              }
-                                          ],
-                         "highlights":  [
-                                            "Green Gated Community",
-                                            "East Bengaluru",
-                                            "Near Whitefield",
-                                            "Nature-First Design"
-                                        ],
-                         "seo":  {
-                                     "title":  "Candeur Novo Gardenia Bengaluru",
-                                     "keywords":  [
-                                                      "Candeur Novo Gardenia",
-                                                      "apartments Bengaluru",
-                                                      "green gated community"
-                                                  ]
-                                 },
-                         "media":  {
-                                       "thumbnail":  "/assets/default-img/high-raise.png",
-                                       "banner":  "/assets/default-img/high-raise.png"
-                                   },
-                         "contact":  {
-                                         "phone":  "+91 93919 54743",
-                                         "whatsapp":  "https://wa.me/919391954743?text=Hi%2C%20I%20am%20interested%20in%20Candeur%20Novo%20Gardenia%20Bengaluru."
                                      }
                      },
                      {
