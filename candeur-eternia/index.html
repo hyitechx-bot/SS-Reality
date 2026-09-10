@@ -348,7 +348,7 @@
  <h1 class="hero-title">The Upgrade Your Life<br/>Has Been Waiting For</h1>
  <p class="hero-sub">2, 2.5 &amp; 3 BHK Premium Apartments  7 Acres 68,000+ Sq.Ft Amenities</p>
  <div class="hero-cta">
- <a href="#contact" class="btn-primary">Book a Free Site Visit</a>
+ <a href="#contact" class="btn-primary">Book a Site Visit</a>
  <a href="#overview" class="btn-outline">Explore Project</a>
  </div>
  <div class="hero-rera">
@@ -833,7 +833,7 @@
  <label for="message">Message (Optional)</label>
  <textarea id="message" name="message" rows="3" placeholder="Any specific requirements?"></textarea>
  </div>
- <button type="submit" class="btn-primary full-width">Book Free Site Visit</button>
+ <button type="submit" class="btn-primary full-width">Book a Site Visit</button>
  <p class="form-note">* By submitting, you agree to be contacted by our sales team. Your data is safe with us.</p>
  <div class="form-success" id="formSuccess" aria-live="polite" hidden>
  ? Thank you! Our team will contact you within 24 hours.
@@ -958,7 +958,7 @@
      const res = await fetch('https://formspree.io/f/mjgpzezo', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) });
      if (res.ok) { document.getElementById('formSuccess').hidden = false; this.reset(); submitBtn.textContent = 'Submitted \u2713'; }
      else { const json = await res.json(); throw new Error(json.error || 'Submission failed'); }
-   } catch(err) { submitBtn.disabled = false; submitBtn.textContent = 'Book Free Site Visit'; alert('Something went wrong. Please call us at +91 93919 54743 or WhatsApp us.'); }
+   } catch(err) { submitBtn.disabled = false; submitBtn.textContent = 'Book a Site Visit'; alert('Something went wrong. Please call us at +91 93919 54743 or WhatsApp us.'); }
  });
  function showError(fieldId, msg) {
    const field = document.getElementById(fieldId);
